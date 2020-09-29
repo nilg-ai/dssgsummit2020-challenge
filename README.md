@@ -20,7 +20,10 @@ The problem will be evaluated using two different criteria: objective and subjec
 
 We assume the writing effort is proportional to the expected distance traveled in the transition between each pair of letters (left image). The expected value is computed using a large text corpus.
 
+
 Participants will be ranked according to a loss function based on the Expected Cost of writing a large corpus of text using the proposed keyboard layout.
+
+We will evaluate the final solution on another set of these text corpus. The presented score is calculated according to the loss function on `loss_function.py` (**TO BE GIVEN BY 3rd OCTOBER**) which uses the character transition matrix calculated according to the text corpus. 
 
 You should submit a solution for both portuguese and english language.
 
@@ -44,18 +47,25 @@ Your video will be evaluated according to criteria such as:
 - Practicability of presented idea
 - Presentation skills - organization and logical flow of pitch
 
+## Registration and Instructions
+
+You should register between 2 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
+
+**Dates**
+Registrations: Until 9th of October. 
+Competition Material and Submission Forms: Ready by 6th October. 
+Submission date: Between 7 and 16th of October. 
+Results presentation: 21st of October, during the DSSG Summit closing session. 
+
+Please join the [Slack Channel](
+https://join.slack.com/t/dssgsummit202-dgf8036/shared_invite/zt-hgkylr45-CdWezJO0HPyOJLD7360ZNw) for this competition and send us (anyone with the suffix NILG.AI in the name) a message where we will create a slack channel for your team. You can also use this Slack Channel for finding teams.
+
+**Submission Form**
+
+Submission form is still being prepared. You will need to submit a video for subjective evaluation and a `.csv` file with a specified format (*TO BE DETAILED UNTIL 6th OCTOBER*). 
 
 ## Prizes
 
 The winning team of this competition will be given a 300€ Amazon gift card, split by the number of members of the team. 
 
 Any further questions, you may direct them to us on the Slack channel or by creating a Github Issue.
-
-
-
-
-
-
-
-
-
