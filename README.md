@@ -52,10 +52,10 @@ Your video will be evaluated according to criteria such as:
 You should register between 2 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
 
 **Dates**
-Registrations: Until 9th of October. 
-Competition Material and Submission Forms: Ready by 6th October. 
-Submission date: Between 7 and 16th of October. 
-Results presentation: 21st of October, during the DSSG Summit closing session. 
+- Registrations: Until 9th of October. 
+- Competition Material and Submission Forms: Ready by 6th October. 
+- Submission date: Between 7 and 16th of October. 
+- Results presentation: 21st of October, during the DSSG Summit closing session. 
 
 Please join the [Slack Channel](
 https://join.slack.com/t/dssgsummit202-dgf8036/shared_invite/zt-hgkylr45-CdWezJO0HPyOJLD7360ZNw) for this competition and send us (anyone with the suffix NILG.AI in the name) a message where we will create a slack channel for your team. You can also use this Slack Channel for finding teams.
