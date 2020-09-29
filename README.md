@@ -69,3 +69,10 @@ Submission form is still being prepared. You will need to submit a video for sub
 The winning team of this competition will be given a 300€ Amazon gift card, split by the number of members of the team. 
 
 Any further questions, you may direct them to us on the Slack channel or by creating a Github Issue.
+
+## Legal 
+
+All code should be open source, in a public Github repository.
+
+The evaluation will be conducted by an external party (to be announced). Juries will report any conflict of interest.
+
