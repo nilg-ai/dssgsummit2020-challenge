@@ -62,8 +62,8 @@ You should register between 2 and 5 team members for this competition, [on the r
 
 **Dates**
 - Registrations: Until 9th of October. 
-- Competition Material and Submission Forms: Ready by 6th October. 
-- Submission date: Between 7 and 16th of October. 
+- Competition Material: Available from 6th October. 
+- Submission date: Between 7th and 16th of October. 
 - Results presentation: 21st of October, during the DSSG Summit closing session. 
 
 Please join the [Slack Channel](
@@ -71,7 +71,8 @@ https://join.slack.com/t/dssgsummit202-dgf8036/shared_invite/zt-hgkylr45-CdWezJO
 
 **Submission Form**
 
-Submission form is still being prepared. You will need to submit a video for subjective evaluation and a `.csv` file with a specified format (*TO BE DETAILED UNTIL 6th OCTOBER*). 
+Submission form will be available from 7th of October. 
+You will need to submit a video for subjective evaluation and a `.csv` file with a specified format (*TO BE DETAILED UNTIL 6th OCTOBER*). 
 
 You will be able to submit multiple times, but you should be able to check your own results with the script `loss_function.py`.  
 
