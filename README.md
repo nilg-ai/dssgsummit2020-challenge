@@ -20,12 +20,21 @@ The problem will be evaluated using two different criteria: objective and subjec
 
 We assume the writing effort is proportional to the expected distance traveled in the transition between each pair of letters (left image). The expected value is computed using a large text corpus.
 
-
 Participants will be ranked according to a loss function based on the Expected Cost of writing a large corpus of text using the proposed keyboard layout.
 
 We will evaluate the final solution on another set of these text corpus. The presented score is calculated according to the loss function on `loss_function.py` (**TO BE GIVEN BY 3rd OCTOBER**) which uses the character transition matrix calculated according to the text corpus. 
 
 You should submit a solution for both portuguese and english language.
+
+** Available data ** 
+
+For creating the character transition matrix, two text corpus are available:
+ - `data/pt.csv` (**TO BE GIVEN BY 3rd OCTOBER**)
+- `data/en.csv` (**TO BE GIVEN BY 3rd OCTOBER**)
+
+And the list of valid keys for each language is given in:
+- `data/valid_keys_en.txt` (**TO BE GIVEN BY 3rd OCTOBER**)
+- `data/valid_keys_pt.txt` (**TO BE GIVEN BY 3rd OCTOBER**)
 
 **Subjective criteria**
 
@@ -63,6 +72,12 @@ https://join.slack.com/t/dssgsummit202-dgf8036/shared_invite/zt-hgkylr45-CdWezJO
 **Submission Form**
 
 Submission form is still being prepared. You will need to submit a video for subjective evaluation and a `.csv` file with a specified format (*TO BE DETAILED UNTIL 6th OCTOBER*). 
+
+You will be able to submit multiple times, but you should be able to check your own results with the script `loss_function.py`.  
+
+**Leaderboard**
+
+The participants' leaderboard will be presented here on Github. It will be updated daily. 
 
 ## Prizes
 
