@@ -2,12 +2,11 @@
 
 ** NOTE ** This README is a work in progress. 
 
-This competition is organized together with the [DSSG Summit 2020](www.summit.dssg.pt). Its goal is to optimize a keyboard layout to minimize the workload for usage by an ALS patient. This was motivated by [Anthony Carbajal](www.anthonycarbajal.com), a full-time daily life hacker that aims to find innovative ways to improve his and other ALS-patient lives, with whom we worked together for developing a first version of this solution. You will work in creating innovative solutions to the problem we tried to solve!
+This competition is organized together with the [DSSG Summit 2020](http://www.summit.dssg.pt). Its goal is to optimize a keyboard layout to minimize the workload for usage by an ALS patient. This was motivated by [Anthony Carbajal](http://www.anthonycarbajal.com), a full-time daily life hacker that aims to find innovative ways to improve his and other ALS-patient lives, with whom we worked together for developing a first version of this solution. You will work in creating innovative solutions to the problem we tried to solve!
 
 ![Hexagonal Keyboard Layout](images/image1.png "Hexagonal Keyboard Layout")
 
 ## Building a solution and evaluation
-
 
 ![Optimization Function"](images/image2.png?raw=true "Optimization Function") ![Key Positions](images/image3.png?raw=true "Key Positions")
 
