@@ -18,11 +18,11 @@ The problem will be evaluated using two different criteria: objective and subjec
 
 **Objective criteria**
 
-We assume the writing effort is proportional to the expected distance traveled in the transition between each pair of letters (left image). The expected value is computed using a large text corpus.
+We assume the writing effort is proportional to the expected distance traveled in the transition between each pair of letters (left image). 
 
 Participants will be ranked according to a loss function based on the Expected Cost of writing a large corpus of text using the proposed keyboard layout.
 
-We will evaluate the final solution on another set of these text corpus. The presented score is calculated according to the loss function on `loss_function.py` (**TO BE GIVEN BY 3rd OCTOBER**) which uses the character transition matrix calculated according to the text corpus. 
+We will evaluate the final solution on another set of these text corpus. The presented score is calculated according to the loss function on `loss_function.py` (**TO BE GIVEN BY 3rd OCTOBER**) which uses a character transition matrix containing the probability of going from one character to another. 
 
 You should submit a solution for both portuguese and english language.
 
