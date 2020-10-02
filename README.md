@@ -8,8 +8,6 @@ This competition is organized together with the [DSSG Summit 2020](http://www.su
 
 ## Building a solution and evaluation
 
-![Optimization Function"](images/image2.png?raw=true "Optimization Function") ![Key Positions](images/image3.png?raw=true "Key Positions")
-
 In this challenge, you will be working with an hexagonal keyboard. 
 
 Keyboard indexes are done by serialization of the positions by clockwise traversing of the concentric rings. Each position contains the proposed letter (right image). The problem translates to finding the best permutation, which is a well-known established optimization problem.
@@ -18,23 +16,33 @@ The problem will be evaluated using two different criteria: objective and subjec
 
 **Objective criteria**
 
-We assume the writing effort is proportional to the expected distance traveled in the transition between each pair of letters (left image). 
+We assume the writing effort is proportional to the expected distance traveled in the transition between each pair of letters (left image).
 
-Participants will be ranked according to a loss function based on the Expected Cost of writing a large corpus of text using the proposed keyboard layout.
+Participants will be ranked according to a cost function based on the cost of writing a large corpus of text using the proposed keyboard layout.
 
-We will evaluate the final solution on another set of these text corpus. The presented score is calculated according to the loss function on `loss_function.py` (**TO BE GIVEN BY 3rd OCTOBER**) which uses a character transition matrix containing the probability of going from one character to another. 
+We will evaluate the final solution on a new corpus. The presented score is calculated according to the cost function on `compute_cost.py` which computes the minimum cost for writing a text given a layout distribution. We provide a small sample text that you can use to validate your approach, but we will be using a different (much larger) dataset to rank the solutions.
 
 You should submit a solution for both portuguese and english language.
 
 ** Available data ** 
 
-For creating the character transition matrix, two text corpus are available:
- - `data/pt.csv` (**TO BE GIVEN BY 3rd OCTOBER**)
-- `data/en.csv` (**TO BE GIVEN BY 3rd OCTOBER**)
+- `data/pt-corpus.txt` (A sample text in Portuguese that only uses the valid characters)
+- `data/en-corpus.txt` (A sample text in English that only uses the valid characters)
 
 And the list of valid keys for each language is given in:
-- `data/valid_keys_en.txt` (**TO BE GIVEN BY 3rd OCTOBER**)
-- `data/valid_keys_pt.txt` (**TO BE GIVEN BY 3rd OCTOBER**)
+- `data/pt-keys.txt`.
+- `data/en-keys.txt`.
+Be aware that some keys are used to signal special characters.
+
+Namely,
+- The ENTER key is represented as 0.
+- The shift key for capitalization is represented as ^.
+- The backspace key is represented as <.
+- All the remaining characters not found in the valid keys are encoded as #.
+- Empty keys will contain the character _.
+
+Your keyboard may have duplicate keys (in which case the cost function will compute the minimum effort for writing a text).
+If there is any missing key, the cost function for your keyboard will be infinity.
 
 **Subjective criteria**
 
@@ -72,7 +80,11 @@ https://join.slack.com/t/dssgsummit202-dgf8036/shared_invite/zt-hgkylr45-CdWezJO
 **Submission Form**
 
 Submission form will be available from 7th of October. 
-You will need to submit a video for subjective evaluation and a `.csv` file with a specified format (*TO BE DETAILED UNTIL 6th OCTOBER*). 
+You will need to submit a video for subjective evaluation and the keyboard distribution for Portuguese and English as plain text characters following the index of the following image:
+
+![Optimization Function"](images/image2.png?raw=true "Optimization Function") ![Key Positions](images/image3.png?raw=true "Key Positions")
+
+For instance, the keyboard on the left, would be encoded as " EAIOTRNDMCYUSLGFWH_BQ#^<0ZV.KX_,?_JP"
 
 You will be able to submit multiple times, but you should be able to check your own results with the script `loss_function.py`.  
 
