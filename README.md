@@ -82,7 +82,7 @@ https://join.slack.com/t/dssgsummit202-dgf8036/shared_invite/zt-hgkylr45-CdWezJO
 Submission form will be available from 7th of October. 
 You will need to submit a video for subjective evaluation and the keyboard distribution for Portuguese and English as plain text characters following the index of the following image:
 
-![Optimization Function"](images/image2.png?raw=true "Optimization Function") ![Key Positions](images/image3.png?raw=true "Key Positions")
+![Optimization Function"](images/image2.png?raw=true  =250x250 "Optimization Function") ![Key Positions](images/image3.png?raw=true =250x250 "Key Positions")
 
 For instance, the keyboard on the left, would be encoded as " EAIOTRNDMCYUSLGFWH_BQ#^<0ZV.KX_,?_JP"
 
