@@ -22,7 +22,7 @@ We will evaluate the final solution on a new corpus. The presented score is calc
 
 You should submit a solution for both portuguese and english language.
 
-** Available data ** 
+**Available data** 
 
 - `data/pt-corpus.txt` (A sample text in Portuguese that only uses the valid characters)
 - `data/en-corpus.txt` (A sample text in English that only uses the valid characters)
