@@ -84,7 +84,7 @@ You will need to submit a video for subjective evaluation and the keyboard distr
 
 For instance, the keyboard on the left, would be encoded as " EAIOTRNDMCYUSLGFWH_BQ#^<0ZV.KX_,?_JP"
 
-You will be able to submit multiple times, but you should be able to check your own results with the script `loss_function.py`.  
+You will be able to submit multiple times, but you should be able to check your own results with the script `compute_cost.py`.  
 
 **Leaderboard**
 
