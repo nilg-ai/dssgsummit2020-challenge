@@ -58,7 +58,7 @@ Your video will be evaluated according to criteria such as:
 
 ## Registration and Instructions
 
-You should register between 2 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
+You should register between 1 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
 
 **Dates**
 - Registrations: Until 9th of October. 
