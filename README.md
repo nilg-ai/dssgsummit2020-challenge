@@ -69,7 +69,7 @@ Your video will be evaluated according to criteria such as:
 You should register between 1 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
 
 **Dates**
-- Registrations: Until 12th of October. 
+- Registrations: Until 16th of October. 
 - Competition Material: Available from 6th October. 
 - Submission date: Between 9th and 16th of October. 
 - Results presentation: 21st of October, during the DSSG Summit closing session. 
