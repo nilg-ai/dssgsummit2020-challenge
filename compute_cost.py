@@ -51,8 +51,9 @@ def compute_cost(keyboard, corpus):
         if node_char_idx + 1 == len(corpus):
             return node_cost
 
-        if min_cost[node_char_idx] < node_cost:
+        if min_cost[node_char_idx] <= node_cost:
             continue
+
         min_cost[node_char_idx] = node_cost
 
         if not mapping.get(corpus[node_char_idx + 1]):
