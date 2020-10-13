@@ -1,8 +1,8 @@
 # Keyboard Layout Optimization for ALS Patients
 
-** NOTE ** This README is a work in progress. 
+This competition is organized together with the [DSSG Summit 2020](http://www.summit.dssg.pt/competition). Its goal is to optimize a keyboard layout to minimize the workload for usage by an ALS patient. This was motivated by [Anthony Carbajal](http://www.anthonycarbajal.com), a full-time daily life hacker that aims to find innovative ways to improve his and other ALS-patient lives, with whom we worked together for developing a first version of this solution. You will work in creating innovative solutions to the problem we tried to solve!
 
-This competition is organized together with the [DSSG Summit 2020](http://www.summit.dssg.pt). Its goal is to optimize a keyboard layout to minimize the workload for usage by an ALS patient. This was motivated by [Anthony Carbajal](http://www.anthonycarbajal.com), a full-time daily life hacker that aims to find innovative ways to improve his and other ALS-patient lives, with whom we worked together for developing a first version of this solution. You will work in creating innovative solutions to the problem we tried to solve!
+**[Here's a video summary of the challenge](https://www.youtube.com/watch?v=hlCuucN-r9U&feature=youtu.be)**
 
 ![Hexagonal Keyboard Layout](images/image1.png "Hexagonal Keyboard Layout")
 
@@ -24,7 +24,7 @@ We will evaluate the final solution on a new corpus. The presented score is calc
 
 You should submit a solution for both portuguese and english language.
 
-** Available data ** 
+**Available data** 
 
 - `data/pt-corpus.txt` (A sample text in Portuguese that only uses the valid characters)
 - `data/en-corpus.txt` (A sample text in English that only uses the valid characters)
@@ -66,12 +66,12 @@ Your video will be evaluated according to criteria such as:
 
 ## Registration and Instructions
 
-You should register between 2 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
+You should register between 1 and 5 team members for this competition, [on the registration form](https://forms.gle/tz4LKmwXunSGAAEHA).
 
 **Dates**
-- Registrations: Until 9th of October. 
+- Registrations: Until 16th of October. 
 - Competition Material: Available from 6th October. 
-- Submission date: Between 7th and 16th of October. 
+- Submission date: Between 9th and 16th of October. 
 - Results presentation: 21st of October, during the DSSG Summit closing session. 
 
 Please join the [Slack Channel](
@@ -86,7 +86,7 @@ You will need to submit a video for subjective evaluation and the keyboard distr
 
 For instance, the keyboard on the left, would be encoded as " EAIOTRNDMCYUSLGFWH_BQ#^<0ZV.KX_,?_JP"
 
-You will be able to submit multiple times, but you should be able to check your own results with the script `loss_function.py`.  
+You will be able to submit multiple times, but you should be able to check your own results with the script `compute_cost.py`.  
 
 **Leaderboard**
 
