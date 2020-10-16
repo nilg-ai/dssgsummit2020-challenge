@@ -3,10 +3,11 @@ Script that computes the cost function of a given keyboard layout and text
 corpus
 """
 
+from tqdm import tqdm
 import argparse
 import heapq
 import numpy as np
-
+import sys
 
 from utils import check_keyboard, compute_cell_location
 
@@ -42,19 +43,31 @@ def compute_cost(keyboard, corpus):
             mapping[char].append(i)
 
     pending = [(0, -1, 0)]
-    min_cost = np.ones(len(corpus)) * np.inf
+    #min_cost = np.ones(len(corpus)) * np.inf
+    min_cost = np.ones((len(corpus), len(keyboard))) * np.inf
 
+    max_char_idx = 0
+    
     while pending:
         node = heapq.heappop(pending)
         node_cost, node_char_idx, node_key_idx = node
 
+        if node_char_idx > max_char_idx:
+            max_char_idx = max(max_char_idx, node_char_idx)
+            #sys.stdout.write("%d%%   \r" % ((max_char_idx / len(corpus) * 100.)))
+            #sys.stdout.flush()
+
         if node_char_idx + 1 == len(corpus):
             return node_cost
 
-        if min_cost[node_char_idx] <= node_cost:
+        if min_cost[node_char_idx][node_key_idx] < node_cost:
             continue
 
-        min_cost[node_char_idx] = node_cost
+        #elif min_cost[node_char_idx] == node_cost and expanded[node_char_idx][node_key_idx]:
+        #    continue
+
+        #expanded[node_char_idx][node_key_idx] = True
+        min_cost[node_char_idx][node_key_idx] = node_cost
 
         if not mapping.get(corpus[node_char_idx + 1]):
             print("Missing char: '%s'" % corpus[node_char_idx + 1])
@@ -91,4 +104,7 @@ ASSIGNMENT = [k if k != '_' else "" for k in ASSIGNMENT]
 check_keyboard(ASSIGNMENT, VALID_CHARS)
 
 # Compute cost
-print('Cost:', compute_cost(ASSIGNMENT, CORPUS))
+CORPUS = CORPUS.split('0')[:10]
+print(len(CORPUS))
+all_costs = [compute_cost(ASSIGNMENT, x + '0') for x in tqdm(CORPUS)]
+print('Cost: %.2f' % np.sum(all_costs))
